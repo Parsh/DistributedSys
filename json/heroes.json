@@ -1,13 +1,3 @@
-[{
-    "hero": "Pudge"
-}, {
-    "hero": "Phantom Assassin"
-}, {
-    "hero": "Juggernaut"
-}, {
-    "hero": "Axe"
-}, {
-    "hero": "Ursa"
-}, {
-    "hero": "Sven"
-}]
+{
+    "heroes": ["Pudge", "Juggernaut", "Sniper", "Ursa", "Sven", "Lion King"]
+}

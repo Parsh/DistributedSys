@@ -14,10 +14,9 @@ app.use(bodyParser.urlencoded({
     extended: false
 }));
 app.use(cors());
-//app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'dist')));
 app.get('/', function(req, res) {
-    //res.render('./dist/index.html')
-    res.send('Will get to you')
+    res.render('./dist/index.html')
 })
 
 app.use('/data', data);
@@ -40,4 +39,6 @@ app.use(function(err, req, res, next) {
     res.render('error');
 });
 
-app.listen(port);
+app.listen(port, function() {
+    console.log("#Main Server OnBoard...")
+});

@@ -1,0 +1,14 @@
+{
+  "name": "server1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cors": "^2.8.1",
+    "express": "~4.14.1",
+    "morgan": "~1.7.0"
+  }
+}
