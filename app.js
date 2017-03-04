@@ -40,5 +40,5 @@ app.use(function(err, req, res, next) {
 });
 
 app.listen(port, function() {
-    console.log("#Main Server OnBoard...")
+    console.log("#Main Server OnBoard... Reporting-Port:3000")
 });
